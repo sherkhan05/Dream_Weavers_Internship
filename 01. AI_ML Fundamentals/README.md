@@ -1,100 +1,109 @@
-# 🤖 AI & ML Fundamentals
+# 🤖 AI & ML Fundamentals – Titanic Dataset Analysis
 
-A beginner-friendly collection of Python notebooks covering the core concepts of Artificial Intelligence, Machine Learning, and Data Analysis. This repository demonstrates practical usage of Python libraries such as NumPy, Pandas, Matplotlib, and Seaborn through hands-on examples using real-world datasets.
-
----
-
-## 📌 Project Overview
-
-This project is designed to build a strong foundation in AI and Machine Learning by focusing on essential data manipulation, visualization, and statistical analysis techniques.
-
-The notebook includes:
-
-- NumPy fundamentals
-- Pandas data manipulation
-- Data filtering and grouping
-- Missing value handling
-- Data visualization with Matplotlib and Seaborn
-- Basic statistical analysis
+A beginner-friendly Machine Learning and Data Analysis project built using the **Titanic dataset (`titanic.csv`)**. This notebook demonstrates the complete Exploratory Data Analysis (EDA) workflow, including data loading, preprocessing, missing value handling, visualization, and statistical analysis using Python.
 
 ---
 
-## 📂 Topics Covered
+# 📌 Project Overview
 
-### 🔹 NumPy
+This project focuses on understanding and analyzing the Titanic dataset through Exploratory Data Analysis (EDA). It introduces fundamental concepts of data preprocessing and visualization that are essential before building Machine Learning models.
 
-- Arrays
-- 2D Arrays
-- Vectorized Operations
-- Indexing & Slicing
+The notebook covers:
 
-### 🔹 Pandas
-
-- Loading CSV datasets
-- Data exploration
-- Data filtering
-- Grouping and aggregation
-- Handling missing values
-
-### 🔹 Data Visualization
-
-Using Matplotlib and Seaborn:
-
-- Histogram
-- Bar Chart
-- Scatter Plot
-- Box Plot
-- Correlation Heatmap
-
-### 🔹 Basic Statistics
-
-- Mean
-- Median
-- Standard Deviation
-- Correlation Analysis
+* Loading and exploring datasets
+* Data cleaning and preprocessing
+* Handling missing values
+* Feature analysis
+* Data visualization
+* Correlation analysis
+* Basic statistical insights
 
 ---
 
-## 📊 Dataset
+# 📂 Dataset
 
-This project uses the **Titanic Dataset**, one of the most popular datasets for learning data analysis and machine learning. We imported the link of the dataset in this project. 
+The project uses the **Titanic dataset (`titanic.csv`)**, which contains passenger information from the Titanic disaster.
 
-The dataset contains passenger information such as:
+### Features include:
 
-- Age
-- Gender
-- Passenger Class
-- Fare
-- Survival Status
-- Cabin
-- Embarked
-
----
-
-## 🛠️ Technologies Used
-
-- Python 3
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+* PassengerId
+* Survived
+* Pclass
+* Name
+* Sex
+* Age
+* SibSp
+* Parch
+* Ticket
+* Fare
+* Cabin
+* Embarked
 
 ---
 
-## 📁 Project Structure
+# 📊 Exploratory Data Analysis (EDA)
 
-```
+The notebook performs the following analyses:
+
+### Data Inspection
+
+* Dataset shape
+* Data types
+* Summary statistics
+* Checking duplicate values
+* Missing value analysis
+
+### Data Cleaning
+
+* Handling missing values
+* Filling missing categorical values
+* Removing unnecessary columns (where appropriate)
+
+### Visualizations
+
+Using **Matplotlib** and **Seaborn**:
+
+* Histogram
+* Bar Chart
+* Scatter Plot
+* Box Plot
+* Correlation Heatmap
+* Missing Values Heatmap
+
+### Statistical Analysis
+
+* Mean
+* Median
+* Standard Deviation
+* Correlation Matrix
+
+---
+
+# 🛠 Technologies Used
+
+* Python 3
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+# 📁 Project Structure
+
+```text
 AI_ML_Fundamentals/
 │
 ├── AI_ML_Fundamentals.ipynb
+├── titanic.csv
 ├── README.md
 └── requirements.txt
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
 ### 1. Clone the repository
 
@@ -122,40 +131,41 @@ jupyter notebook
 
 Open:
 
-```
+```text
 AI_ML_Fundamentals.ipynb
 ```
 
 ---
 
-## 📈 Learning Outcomes
+# 📈 Learning Outcomes
 
-After completing this notebook, you will be able to:
+After completing this project, you will be able to:
 
-- Work efficiently with NumPy arrays
-- Manipulate datasets using Pandas
-- Clean and preprocess data
-- Handle missing values
-- Perform filtering and grouping operations
-- Create meaningful visualizations
-- Interpret basic statistical measures
-- Analyze relationships between variables using correlation
-
----
-
-## 📷 Visualizations Included
-
-- 📊 Histogram
-- 📊 Bar Chart
-- 📈 Scatter Plot
-- 📦 Box Plot
-- 🔥 Correlation Heatmap
+* Load datasets using Pandas
+* Explore and understand dataset structure
+* Handle missing values effectively
+* Perform data preprocessing
+* Create informative visualizations
+* Analyze relationships between variables
+* Interpret statistical summaries
+* Build a strong foundation for Machine Learning
 
 ---
 
-## 📦 Requirements
+# 📷 Visualizations Included
 
-```
+* 📊 Histogram
+* 📊 Bar Chart
+* 📈 Scatter Plot
+* 📦 Box Plot
+* 🔥 Correlation Heatmap
+* 🟨 Missing Values Heatmap
+
+---
+
+# 📦 Requirements
+
+```text
 numpy
 pandas
 matplotlib
@@ -163,7 +173,7 @@ seaborn
 jupyter
 ```
 
-You can install all dependencies with:
+Install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
@@ -171,19 +181,13 @@ pip install -r requirements.txt
 
 ---
 
-## 🎯 Purpose
+# 🎯 Purpose
 
-This repository serves as a foundational learning resource for students and beginners who want to strengthen their understanding of data analysis techniques commonly used in Artificial Intelligence and Machine Learning workflows.
-
----
-
-## 📜 License
-
-This project is intended for educational purposes and is free to use for learning and personal development.
+This repository is intended for students and beginners who want to learn the fundamentals of Data Analysis and Machine Learning through hands-on practice with the Titanic dataset.
 
 ---
 
-## 👤 Author
+# 👤 Author
 
 **Shaheer Abdullah**
 
@@ -191,4 +195,4 @@ GitHub: https://github.com/sherkhan05
 
 ---
 
-⭐ If you found this project helpful, consider giving the repository a star!
+⭐ If you found this project helpful, consider giving it a star!
